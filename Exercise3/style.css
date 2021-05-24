@@ -1,0 +1,69 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(70, 70, 70);
+  padding: 1rem;
+}
+
+header {
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgb(177, 150, 92);
+  background-color: rgb(44, 44, 44);
+  padding: 1px;
+  margin-bottom: 4rem;
+}
+
+.cards {
+  display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+  grid-gap: 1rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(177, 150, 92);
+  padding: 0.8rem;
+  height: 16rem;
+}
+
+p {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-top: 0.5rem;
+  vertical-align: text-top;
+}
+
+img {
+  width: 100%;
+  height: 9rem;
+  object-fit: cover;
+}
+
+#footer {
+  border-bottom: 3px solid rgb(70, 70, 70);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

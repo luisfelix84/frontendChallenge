@@ -1,0 +1,21 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+table {
+  margin: auto;
+}
+
+img {
+  width: 700px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  color: rgb(207, 180, 129);
+}
